@@ -1,0 +1,179 @@
+/* CSS Custom Properties (Variables) */
+
+:root {
+  /* Primary Colors */
+  --color-primary-50: #e9f0ff;
+  --color-primary-100: #d1e0ff;
+  --color-primary-200: #a3c1ff;
+  --color-primary-300: #75a2ff;
+  --color-primary-400: #4783ff;
+  --color-primary-500: #1857d8;
+  --color-primary-600: #1244aa;
+  --color-primary-700: #0c317c;
+  --color-primary-800: #071d4e;
+  --color-primary-900: #020a21;
+
+  /* Secondary Colors */
+  --color-secondary-50: #e6fbf6;
+  --color-secondary-100: #c4f3e6;
+  --color-secondary-200: #8de5cd;
+  --color-secondary-300: #56d8b4;
+  --color-secondary-400: #26c699;
+  --color-secondary-500: #0c9f78;
+  --color-secondary-600: #0a7e5f;
+  --color-secondary-700: #075e47;
+  --color-secondary-800: #043e2f;
+  --color-secondary-900: #021f18;
+
+  /* Accent Colors */
+  --color-accent-50: #fff3e0;
+  --color-accent-100: #ffe0b2;
+  --color-accent-200: #ffcc80;
+  --color-accent-300: #ffb74d;
+  --color-accent-400: #ffa726;
+  --color-accent-500: #fb8c00;
+  --color-accent-600: #ef6c00;
+  --color-accent-700: #e65100;
+  --color-accent-800: #bf360c;
+  --color-accent-900: #8e2400;
+
+  /* Neutral Colors */
+  --color-neutral-50: #f3f4f6;
+  --color-neutral-100: #e5e7eb;
+  --color-neutral-200: #d1d5db;
+  --color-neutral-300: #9ca3af;
+  --color-neutral-400: #6b7280;
+  --color-neutral-500: #4b5563;
+  --color-neutral-600: #374151;
+  --color-neutral-700: #1f2937;
+  --color-neutral-800: #111827;
+  --color-neutral-900: #020617;
+
+  /* Status Colors */
+  --color-success: #10B981;
+  --color-warning: #F59E0B;
+  --color-error: #EF4444;
+  --color-info: #3B82F6;
+
+  /* Semantic Colors */
+  --color-background: #f9fafb;
+  --color-background-alt: #ffffff;
+  --color-surface: #ffffff;
+  --color-text-primary: #0a0a0a;
+  --color-text-secondary: #374151;
+  --color-text-tertiary: #6b7280;
+  --color-border: #E2E8F0;
+  --color-divider: #CBD5E1;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.12);
+  --shadow-2xl: 0 25px 50px rgba(0, 0, 0, 0.15);
+  --shadow-soft: 0 2px 15px rgba(0, 0, 0, 0.08);
+  --shadow-medium: 0 4px 25px rgba(0, 0, 0, 0.12);
+  --shadow-hard: 0 10px 40px rgba(0, 0, 0, 0.15);
+  --shadow-glow: 0 0 30px rgba(24, 87, 216, 0.3);
+  --shadow-glow-secondary: 0 0 30px rgba(12, 159, 120, 0.3);
+
+  /* Spacing Scale */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+
+  /* Border Radius */
+  --radius-xs: 0.125rem;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-full: 9999px;
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  --font-display: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-accent: 'Playfair Display', Georgia, serif;
+
+  /* Font Sizes */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+  --text-6xl: 3.75rem;
+  --text-7xl: 4.5rem;
+
+  /* Font Weights */
+  --font-light: 300;
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-extrabold: 800;
+
+  /* Line Heights */
+  --leading-none: 1;
+  --leading-tight: 1.25;
+  --leading-snug: 1.375;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.625;
+  --leading-loose: 2;
+
+  /* Letter Spacing */
+  --tracking-tighter: -0.05em;
+  --tracking-tight: -0.025em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.025em;
+  --tracking-wider: 0.05em;
+  --tracking-widest: 0.1em;
+
+  /* Transitions */
+  --transition-fast: 150ms ease-in-out;
+  --transition-base: 300ms ease-in-out;
+  --transition-slow: 500ms ease-in-out;
+  --transition-all: all 300ms ease-in-out;
+
+  /* Z-Index Scale */
+  --z-base: 1;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-fixed: 300;
+  --z-modal-backdrop: 400;
+  --z-modal: 500;
+  --z-popover: 600;
+  --z-tooltip: 700;
+  --z-notification: 800;
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, var(--color-primary-500) 0%, var(--color-primary-700) 100%);
+  --gradient-secondary: linear-gradient(135deg, var(--color-secondary-500) 0%, var(--color-secondary-700) 100%);
+  --gradient-accent: linear-gradient(135deg, var(--color-accent-400) 0%, var(--color-accent-600) 100%);
+}
+
+/* Selection */
+::selection {
+  background-color: var(--color-primary-200);
+  color: var(--color-primary-900);
+}
+
+::-moz-selection {
+  background-color: var(--color-primary-200);
+  color: var(--color-primary-900);
+}
